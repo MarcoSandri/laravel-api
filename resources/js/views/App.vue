@@ -1,12 +1,17 @@
 <template>
   <div>
-      <h1>Vue in Laravel</h1>
+      <ListaPost />
   </div>
 </template>
 
 <script>
+import ListaPost from '../components/ListaPost.vue'
+
 export default {
-    name: 'App'
+    name: 'App',
+    components: {
+        ListaPost
+    }
 }
 </script>
 

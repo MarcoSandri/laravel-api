@@ -11,6 +11,7 @@
                 <div><strong>Contenuto</strong> {!!$post->content!!} </div>
                 <div><strong>Slug</strong> {{$post->slug}} </div>
                 <div><strong>Categoria</strong> {{$post->category->name}} </div>
+                <div><strong>Scritto da:</strong> {{$diff}} giorni</div>
 
                 <a href="{{url()->previous()}}" class="btn btn-primary">Torna indietro</a>
 
